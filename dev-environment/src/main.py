@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 import redis
 
-r = redis.Redis(host="redis123", port=6379)
+r = redis.Redis(host="redis", port=6379)
 app = FastAPI()
 
 # import debugpy
